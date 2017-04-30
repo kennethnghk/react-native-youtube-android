@@ -1,0 +1,34 @@
+{
+  "name": "react-native-youtube-android",
+  "version": "1.0.0",
+  "description": "React Native Youtube Player for Android",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennethnghk/react-native-youtube-android.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-youtube-android",
+    "android",
+    "youtube"
+  ],
+  "author": "Kenneth Ng",
+  "bugs": {
+    "url": "https://github.com/kennethng/react-native-youtube-android/issues"
+  },
+  "homepage": "https://github.com/kennethng/react-native-youtube-android#readme",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.38.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.0",
+    "eslint-plugin-react": "^6.8.0",
+    "react": "^15.4.1",
+    "react-native": "^0.39.2"
+  }
+}
