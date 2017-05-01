@@ -5,7 +5,6 @@ import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
-import com.reactnativeyoutubeandroid.YoutubePlayerManager;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -25,7 +24,7 @@ public class RNAKPackage implements ReactPackage {
 	@Override
 	public List<ViewManager> createViewManagers(ReactApplicationContext reactApplicationContext) {
 		return Arrays.<ViewManager>asList(
-				new YoutubePlayerManager()
+				new YoutubePlayerAndroidManager()
 		);
 	}
 }
